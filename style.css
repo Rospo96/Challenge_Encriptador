@@ -1,0 +1,90 @@
+html {
+    height: 100vh;
+    background-color:#F3F5FC;
+}
+body {
+    min-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    height: 50vh;
+}
+
+main section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+aside {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: #dfe6ff;
+    height: auto;
+}
+
+.formulario_encriptador {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-items: center;
+}
+
+aside .contenedor-mensaje {
+    border: 2px solid lightcoral;
+    width: 70vw;
+    height: 20vh;
+    margin: 1em auto;
+    
+}
+
+.flex-container-aside-footer {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ESTILOS DE BELLEZA */
+.texto_centrado {
+    text-align: center;
+}
+
+
+label, textarea, input {
+    margin: .4em;
+}
+
+.fuente-bonita {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+textarea {
+    text-align: center;
+    background-color: #F3F5FC;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.boton-encriptar, .boton-desencriptar {
+}
